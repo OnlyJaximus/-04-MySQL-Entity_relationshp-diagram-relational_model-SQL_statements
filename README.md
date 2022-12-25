@@ -14,5 +14,9 @@ ATRIBUTI: </br>
          
          klijent IS_A () </br>
          
-         Veza izemdju vozila i majstora je entitet POPRAVLJA koji ima neke svoje atribute. Popravlja ce biti ascoijatvini entitet.
-         Veza je (1,n) na (0, n) tj. vise na vise. </br>
+         Veza izemdju vozila i majstora je entitet POPRAVLJA koji ima neke svoje atribute. Popravlja ce biti ascoijatvini entitet.  </br>
+         Veza je (1,n) na (0, n) tj. vise na vise. </br> 
+     
+ - Radionica mora imati strani kljuc na servis, da bi se znalo kom servisu pripada.   </br>
+ - Naglaseno je u textu zadataka da radionica MORA pripadati nekom atuoservisu, strani kljuc (foreign key) ne moze ostai null! // autoservis_id NOT NULL
+ - foreign key ne moze da bude NULL! jer mu je min i max (1, 1) 
